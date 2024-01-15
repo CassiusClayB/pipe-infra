@@ -21,7 +21,9 @@ jobs:
     - name: Install Dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install go
+        sudo apt-get install -y golang-1.17
+        export PATH=$PATH:/usr/lib/go-1.17/bin
+        go version
         go get -u github.com/gruntwork-io/terratest/modules/terraform
 
     - name: Run Terraform Tests
