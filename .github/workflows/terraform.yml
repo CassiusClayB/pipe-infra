@@ -24,6 +24,10 @@ jobs:
         sudo apt-get install -y golang-1.17
         export PATH=$PATH:/usr/lib/go-1.17/bin
         go version
+        
+        # Inicializa o módulo Go
+        go mod init tests-go-module
+        
         go get -u github.com/gruntwork-io/terratest/modules/terraform
 
     - name: Run Terraform Tests
