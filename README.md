@@ -26,32 +26,51 @@ Se estiver provisionando instâncias EC2 ou outros recursos que exigem acesso SS
 Permissões do IAM (Identity and Access Management):
 Garanta que as credenciais utilizadas pelo Terraform possuam as permissões adequadas para criar, modificar e excluir recursos na AWS. Recomenda-se seguir o princípio de menor privilégio e criar um usuário IAM com as permissões mínimas necessárias.
 
-# Configuração do Ambiente
-
-# Uso
-
-# Contribuição
-
-# Licença
-
-# Suporte
-
-# Agradecimentos
-
 # Status do Projeto
 OnGoing  
 
 # Roadmap
 
+I. Configuração de Pipeline de CI/CD 
+Você receberá um projeto de uma aplicação web fictícia, juntamente com o código fonte e os testes associados. Seu objetivo é configurar um pipeline de integração e entrega contínua (CI/CD) para  automatizar o processo de construção, teste e implantação da aplicação. 
+Passos: 
+1. Configuração do Repositório: 
+a. Crie um repositório no GitLab (ou na ferramenta de sua escolha) para este projeto; 
+b. Utilize este repositório para armazenar o código fonte da aplicação recebida em  conjunto com esse documento. 
+2. Configuração de um pipeline que automatize os seguintes passos: 
+a. Construção da aplicação a partir do código fonte; 
+b. Execução dos testes fornecidos com o código do item 1b e aqueles que entender que  são necessários; 
+c. Empacotamento da aplicação para distribuição; 
+d. Implementação automática da aplicação em um ambiente de produção. 
+3. Garantia de Integridade e Disponibilidade 
+a. Explique como você asseguraria a integridade e disponibilidade do sistema, caso ele  já estivesse em produção, durante cada etapa do pipeline. 
+Objetivos da avaliação: 
+• Capacidade de configurar um pipeline de CI/CD. 
+• Compreensão dos conceitos de integração contínua e entrega contínua. 
+• Familiaridade com ferramentas de CI/CD e a capacidade de utilizá-las de forma eficaz. 
+II. Automatização de Implantação e Escalabilidade 
+Neste cenário precisamos implantar a aplicação web fictícia que foi configurada no pipeline de  CI/CD criado no item I deste documento, Configuração de Pipeline de CI/CD. 
+Passos: 
+1. Configuração de Ambiente AWS: Crie um ambiente AWS (por exemplo, uma instância EC2  ou um cluster ECS) onde a aplicação será implantada. 
+      2. Automação da Implantação: Use Terraform, CloudFormation ou outra ferramenta de  infraestrutura como código para automatizar a criação e configuração do ambiente AWS. 
+3. Integração com CI/CD: Integre o pipeline de CI/CD existente com a automação de  implantação no ambiente AWS, de maneira a possibilitar o deploy automático da aplicação  criada no item I deste documento, Configuração de Pipeline de CI/CD. 
+Objetivo da Avaliação: 
+• Proficiência em ferramentas de IaaC, como Terraform ou CloudFormation.
+• Conhecimento prático em ambientes AWS. 
+• Capacidade de integrar a automação de implantação com o pipeline de CI/CD.
+Este conteúdo é PÚBLICO | This content is PUBLIC 
+
+III. Soluções Proativas de Monitoramento e Desempenho 
+Descreva como implementaria soluções proativas para monitorar a saúde e o desempenho de um  ambiente de nuvem AWS, abordando a configuração de alertas, métricas-chave a serem  monitoradas e como lidaria com possíveis problemas. 
+Objetivos da avaliação:  
+• Conhecimento em monitoramento e alertas utilizando ferramentas, como Prometheus,  Splunk, New Relic Zabbix etc. 
+• Capacidade de planejar e implementar soluções proativas de monitoramento.
+Este conteúdo é PÚBLICO | This content is PUBLIC 
+
 # FAQ
 Para dúvidas falar com Cassius clay, no e-mail: Cassiussilvafilho@gmail.com
 
 # Como Contribuir
-Realizar um fork do projeto e aplicar as mudanças para serem implementadas após aprovação
-
+Projeto # privado
 # Autores
 Cassius clay
-
-# Histórico de Mudanças
-
-# Palavras Finais
